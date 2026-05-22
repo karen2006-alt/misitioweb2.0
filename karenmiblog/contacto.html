@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Felix Maldonado A</title>
+  <link rel="stylesheet" href="contacto.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">KAREN RAMOS a:</div>
+      <ul class="menu">
+        <li><a href="sobre_mi.html">Sobre mí</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="mis_trabajos.html">Mis Trabajos</a></li>
+        <li><a href="¿porque_trabajar_conmigo.html">¿Por qué trabajar conmigo?</a></li>
+        <li><a href="index.html">Blog</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+<section id="contacto">
+  <h3>Contáctame</h3>
+  <form class="formulario-contacto" action="mailto:tu_correo@gmail.com" method="POST" enctype="text/plain">
+    <label for="nombre">Tu nombre:</label>
+    <textarea name="nombre" id="nombre" placeholder="escribe tu nombre aqui..." required></textarea>
+    <label for="email">Gmail:</label>
+    <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje" rows="6" placeholder="Escribe tu mensaje aquí..." required></textarea>
+
+    <button type="submit">Enviar</button>
+  </form>
+</section>
+</body>
+</html>
